@@ -13,8 +13,8 @@ public class FPS_Camera : MonoBehaviour
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
-        // Make crosshair so this line can be uncommented
-        Cursor.visible = false;
+        // Make crosshair so this line can be false
+        Cursor.visible = true;
     }
 
     // Update is called once per frame
